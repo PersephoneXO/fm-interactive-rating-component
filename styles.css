@@ -1,0 +1,76 @@
+/*global css*/
+:root{
+    /*primary*/
+    --orange:hsl(25, 97%, 53%);
+    /*neutral*/
+    --white:hsl(0, 0%, 100%);
+    --light-grey:hsl(217, 12%, 63%);
+    --medium-grey:hsl(216, 12%, 54%);
+    --dark-blue:hsl(213, 19%, 18%);
+    --very-dark-blue:hsl(216, 12%, 8%);
+}
+
+html{
+    font-size: calc(15px + 0.390625vw);
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Overpass',sans-serif;
+    overflow: hidden;
+    margin: 0;
+    background-color: #141519;
+}
+
+main{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.component-container{
+    background-color: #1c232d;
+    color: var(--white);
+    height: 45%;
+    width: 75%;
+    border-radius: 10px;
+    padding-inline: calc(20px + 1.5625vw);
+    padding-top: calc(20px + 1.5625vw);
+    padding-bottom: calc(20px + 1.5625vw);
+}
+/*
+.component-container *{
+    margin: 0;
+}*/
+
+.rating-icon{
+    background-color: #272f34;
+    border-radius: 100%;
+    padding: calc(8px + 1.5625vw);
+
+}
+
+.rating-title{
+    font-size: 1.5rem;
+}
+
+.rating-desc{
+    color: var(--light-grey);
+    font-size: 1rem;
+}
+
+.rating-choices-container{
+    display: flex;
+    color: var(--light-grey);
+}
+
+.attribution{
+    color: var(--white);
+}
+
+/*design for desktop*/
+@media only screen and (min-width:768px){
+
+}
