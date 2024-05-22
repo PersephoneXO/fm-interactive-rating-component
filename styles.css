@@ -49,6 +49,7 @@ main{
     margin: 0;
 }*/
 
+
 .rating-icon{
     background-color: var(--medium-grey);
     border-radius: 100%;
@@ -73,16 +74,19 @@ main{
 }
 
 .rating-choices{
-    /*width: 15%;*/
+    width: 2.5rem;
+    height: 2.5rem;
     font-size: 1rem;
     background-color: var(--medium-grey);
     border-radius: 100%;
-    /*padding: calc(8px + 1.5625vw);*/
-    aspect-ratio: 1;
+    /*padding: calc(0px + 1.5625vw);*/
+
 
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+
 }
 
 .submit-button{
@@ -91,6 +95,10 @@ main{
     color: var(--white);
     border-radius: 20px;
     width: 100%;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: .15rem;
+    padding: calc(4px + 1.5625vw);
 
 }
 
