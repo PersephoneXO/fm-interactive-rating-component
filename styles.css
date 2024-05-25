@@ -50,6 +50,7 @@ main{
 }*/
 
 
+
 .rating-icon{
     background-color: var(--medium-grey);
     border-radius: 100%;
@@ -58,7 +59,7 @@ main{
 }
 
 .rating-title{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .rating-desc{
@@ -71,6 +72,7 @@ main{
     display: flex;
     color: var(--light-grey);
     justify-content: space-between;
+    margin-bottom:calc(5px + 1.5625vw);
 }
 
 .rating-choices{
@@ -95,10 +97,10 @@ main{
     color: var(--white);
     border-radius: 20px;
     width: 100%;
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 700;
     letter-spacing: .15rem;
-    padding: calc(4px + 1.5625vw);
+    padding: calc(6px + 1.5625vw);
 
 }
 
