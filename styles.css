@@ -109,6 +109,35 @@ main{
 }
 
 /*design for desktop*/
-@media only screen and (min-width:768px){
+@media only screen and (min-width:768px) and (orientation:landscape){
+    .component-container{
+        width: 25%;
+        height: 40%;
+        border-radius: 30px;
+        padding-inline: calc(10px + 1.5625vw);
+        padding-top: calc(5px + 1.5625vw);
 
+        display: grid;
+    }
+
+    .rating-icon{
+        padding: calc(-5px + 1.5625vw);
+    }
+
+    .rating-desc{
+        font-size: .8rem;
+        margin-top:calc(-30px + 1.5625vw);
+    }
+    .rating-choices-container{
+        margin-bottom: calc(0px + 1.5625vw);
+    }
+
+    .rating-choices{
+        font-size: .8rem;
+    }
+
+    .submit-button{
+        padding: calc(-10px + 1.5625vw);
+        font-size: .76rem;
+    }
 }
