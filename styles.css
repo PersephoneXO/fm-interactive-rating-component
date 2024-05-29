@@ -1,0 +1,109 @@
+/*global css*/
+:root {
+    /* primary */
+    --orange: hsl(25, 97%, 53%);
+    /* neutral */
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --medium-grey: #272f34;
+    --dark-blue: #1c232d;
+    --very-dark-blue: #141519;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Overpass', sans-serif;
+    overflow: hidden;
+    margin: 0;
+    background-color: var(--very-dark-blue);
+}
+
+main {
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.component-container {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    width: 75%;
+    max-width: 400px;
+    border-radius: 15px;
+    padding: 2rem 1.5rem;
+    display: grid;
+    gap: 1rem;
+
+}
+
+.rating-icon {
+    background-color: var(--medium-grey);
+    border-radius: 50%;
+    padding: .8rem;
+    aspect-ratio: 1;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.rating-title {
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.rating-desc {
+    color: var(--light-grey);
+    font-size: 0.85rem;
+    font-weight: 400;
+    /*margin: 0;*/
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.rating-choices-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.rating-choices {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    background-color: var(--medium-grey);
+    color: var(--light-grey);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    margin: 0;
+}
+
+.submit-button {
+    background-color: var(--orange);
+    border: none;
+    color: var(--white);
+    border-radius: 20px;
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+
+.attribution {
+    color: var(--white);
+    font-size: 0.75rem;
+}
+
+
+/*design for desktop*/
+@media only screen and (min-width:768px) and (orientation:landscape){
+
+}
